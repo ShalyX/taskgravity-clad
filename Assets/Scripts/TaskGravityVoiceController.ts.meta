@@ -1,0 +1,51 @@
+- !<AssetImportMetadata/7c81e74a-7365-482f-8f44-fc78fd851b79>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 420186d0-1814-48c9-a625-cb64514fd25f
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 420186d0-1814-48c9-a625-cb64514fd25f
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> cd92ee6b-bcef-4487-b3a2-e0613ba390ec
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/cd92ee6b-bcef-4487-b3a2-e0613ba390ec>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: 452f3a1e-a315-4588-8d44-c1fbed752ee0
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    focusAnchor: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - focusAnchor: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">TaskGravity – voice capture</span>"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">References</span>"}'
+    - '// @ui {"widget":"group_start", "label":"References"}'
+    - '// @input SceneObject focusAnchor {"hint":"Existing Focus anchor used to activate one speech capture"}'
+    - '// @ui {"widget":"group_end"}'

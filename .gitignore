@@ -1,0 +1,51 @@
+# BEGIN Lens Studio managed Agents-Docs block
+.mcp.json
+.cursor/mcp.json
+.vscode/mcp.json
+.codex/config.toml
+.claude/settings.local.json
+# END Lens Studio managed Agents-Docs block
+
+# Added by Lens Studio (LEAF plugin)
+leaf_plugin_settings.json
+
+# Local/editor-only state and generated Lens Studio data
+.claude/
+.codex/
+.cursor/
+.vscode/
+.virtual-scene.json
+AGENTS.md
+CLAUDE.md
+Cache/
+PluginsUserPreferences/
+Workspaces/
+
+# Local signing/debug credentials
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Environment files and local secrets
+.env
+.env.*
+!.env.example
+
+# Temporary output, logs, traces, and recordings
+*.log
+*.trace
+*.dmp
+*.mp4
+*.mov
+*.mkv
+*.webm
+*.zip
+*.7z
+*.rar
+
+# General development output
+node_modules/
+dist/
+build/
+coverage/

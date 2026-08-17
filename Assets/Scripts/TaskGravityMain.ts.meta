@@ -1,0 +1,82 @@
+- !<AssetImportMetadata/bcbafa7a-368f-4391-aa10-f0b3c52ed87a>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 03d0b19a-5537-4323-84e3-ca51de3e379a
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 03d0b19a-5537-4323-84e3-ca51de3e379a
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> ba578c56-4fc7-4d4e-85c4-66d8eb6e31bf
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/ba578c56-4fc7-4d4e-85c4-66d8eb6e31bf>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: 1c057a29-cf89-46aa-8988-925c9de36f93
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    debugColliders: false
+    focusAnchor: false
+    laterZone: false
+    nextZone: false
+    nowZone: false
+    taskInbox: false
+    taskNotes: false
+    taskProposal: false
+    ui: false
+    voiceController: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - focusAnchor: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      nowZone: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      nextZone: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      laterZone: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      taskProposal: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      taskNotes: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      taskInbox: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      ui: !<MappingBased.AssignableType_1> 00000000-0000-0000-0000-000000000000
+      voiceController: !<MappingBased.AssignableType_2> 00000000-0000-0000-0000-000000000000
+      debugColliders: false
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">TaskGravity – capture and spatial priority</span>"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">References</span>"}'
+    - '// @ui {"widget":"group_start", "label":"References"}'
+    - '// @input SceneObject focusAnchor {"hint":"Central world-space Focus anchor"}'
+    - '// @input SceneObject nowZone {"hint":"Closest priority zone"}'
+    - '// @input SceneObject nextZone {"hint":"Middle-distance priority zone"}'
+    - '// @input SceneObject laterZone {"hint":"Farthest priority zone"}'
+    - '// @input SceneObject taskProposal {"hint":"Sample task: Prepare proposal"}'
+    - '// @input SceneObject taskNotes {"hint":"Sample task: Review notes"}'
+    - '// @input SceneObject taskInbox {"hint":"Sample task: Clean inbox"}'
+    - '// @input AssignableType_1 ui {"hint":"World-space status readout and runtime task labels"}'
+    - '// @input AssignableType_2 voiceController {"hint":"One-shot ASR controller activated from the Focus anchor"}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Debug</span>"}'
+    - '// @ui {"widget":"group_start", "label":"Debug"}'
+    - '// @input bool debugColliders {"hint":"Show task collider wireframes while debugging hand targets"}'
+    - '// @ui {"widget":"group_end"}'
